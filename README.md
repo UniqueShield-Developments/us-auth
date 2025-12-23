@@ -84,4 +84,4 @@ flow.getXboxToken().then((xbl) => {
 
 ## license
 
-ISC
+MIT

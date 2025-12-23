@@ -16,7 +16,7 @@
     "playfab"
   ],
   "author": "Hermet1c",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/UniqueShield-Developments/us-auth.git"
