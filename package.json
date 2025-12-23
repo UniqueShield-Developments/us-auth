@@ -1,0 +1,33 @@
+{
+  "name": "us-auth",
+  "version": "1.0.0",
+  "description": "Microsoft Xbox and Minecraft authentication library",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"no tests\""
+  },
+  "keywords": [
+    "minecraft",
+    "bedrock",
+    "xbox",
+    "microsoft",
+    "auth",
+    "playfab"
+  ],
+  "author": "Hermet1c",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UniqueShield-Developments/us-auth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UniqueShield-Developments/us-auth/issues"
+  },
+  "homepage": "https://github.com/UniqueShield-Developments/us-auth#readme",
+  "dependencies": {
+    "@azure/msal-node": "^3.8.4",
+    "smart-buffer": "^4.2.0",
+    "uuid-1345": "^1.0.2"
+  }
+}

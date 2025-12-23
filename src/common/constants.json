@@ -1,0 +1,45 @@
+{
+    "RelyingParties": {
+        "PCXSTSRelyingParty": "rp://api.minecraftservices.com/",
+        "BedrockXSTSRelyingParty": "https://multiplayer.minecraft.net/",
+        "PlayfabRelyingParty": "https://b980a380.minecraft.playfabapi.com/",
+        "XboxAuthRelyingParty": "http://auth.xboxlive.com/",
+        "XboxRelyingParty": "http://xboxlive.com",
+        "BedrockRealmsRelyingParty": "https://pocket.realms.minecraft.net/"
+    },
+    "AuthEndpoints": {
+        "XboxUserAuth": "https://user.auth.xboxlive.com/user/authenticate",
+        "XboxDeviceAuth": "https://device.auth.xboxlive.com/device/authenticate",
+        "XboxTitleAuth": "https://title.auth.xboxlive.com/title/authenticate",
+        "XstsAuthorize": "https://xsts.auth.xboxlive.com/xsts/authorize",
+        "PlayfabLoginWithXbox": "https://20ca2.playfabapi.com/Client/LoginWithXbox",
+        "MinecraftSessisonStart": "https://authorization.franchise.minecraft-services.net/api/v1.0/session/start",
+        "BedrockAuth": "https://multiplayer.minecraft.net/authentication"
+    },
+    "titles": {
+        "MinecraftNintendoSwitch": "00000000441cc96b",
+        "MinecraftPlaystation": "000000004827c78e",
+        "MinecraftAndroid": "0000000048183522",
+        "MinecraftJava": "00000000402b5328",
+        "MinecraftIOS": "000000004c17c01a",
+        "XboxAppIOS": "000000004c12ae6f",
+        "XboxGamepassIOS": "000000004c20a908"
+    },
+    "defaultLiveScopes": [
+        "service::user.auth.xboxlive.com::MBI_SSL"
+    ],
+    "defaultMsaScopes": [
+        "XboxLive.signin",
+        "offline_access"
+    ],
+    "xboxLiveErrors": {
+        "2148916227": "Your account was banned by Xbox for violating one or more Community Standards for Xbox and is unable to be used.",
+        "2148916229": "Your account is currently restricted and your guardian has not given you permission to play online. Login to https://account.microsoft.com/family/ and have your guardian change your permissions.",
+        "2148916233": "Your account currently does not have an Xbox profile. Please create one at https://signup.live.com/signup",
+        "2148916234": "Your account has not accepted Xbox's Terms of Service. Please login and accept them.",
+        "2148916235": "Your account resides in a region that Xbox has not authorized use from. Xbox has blocked your attempt at logging in.",
+        "2148916236": "Your account requires proof of age. Please login to https://login.live.com/login.srf and provide proof of age.",
+        "2148916237": "Your account has reached its limit for playtime. Your account has been blocked from logging in.",
+        "2148916238": "The account date of birth is under 18 years and cannot proceed unless the account is added to a family by an adult."
+    }
+}
