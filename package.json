@@ -1,6 +1,6 @@
 {
   "name": "us-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Microsoft Xbox and Minecraft authentication library",
   "main": "index.js",
   "types": "index.d.ts",
